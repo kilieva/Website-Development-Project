@@ -1,2 +1,10 @@
-# Website-Development-Project
-Project created for the course INF 240 Website Development
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+    <body>
+  <h2>Visit My Website</h2>
+  
+  <a href="https://kilieva.github.io/Website-Development-Project/">Clair de Lune Hotel</a>
+ </body>
+</html>
