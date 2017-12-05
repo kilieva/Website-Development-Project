@@ -1,0 +1,368 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
+
+body {
+    margin: 0;
+    position: relative;    
+    font-family: 'Playfair Display', serif;
+}
+
+nav {
+  color: #FFF;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  height: 4.5em;
+  width: 100%;
+  background: none;
+  box-sizing: border-box;
+  padding: 12px 18px;  
+  display: flex;
+  list-style-type: none;
+  transition: background-color 0.2s ease-out;
+}
+
+nav.scroll {
+  background-color: #FFF;
+  color: #000;
+}
+
+header.wall1 {
+    background-image: url(Images/food3.jpg);    
+    background-repeat: no-repeat;
+    height: 900px;
+    background-size: cover; 
+    top: -15px;
+    position: relative;
+}
+
+.kk {    
+    cursor: pointer;     
+    position: relative;    
+    top: 10px;
+    left: 280px;
+    margin-top: 15px;
+    padding-bottom: 20px;    
+    padding-right: 70px;    
+    font-weight: 600;
+    letter-spacing: .085em;
+    font-size: 20px;        
+}
+
+ .kk1 {    
+    cursor: pointer;     
+    position: relative;    
+    top: 10px;
+    left: 280px;
+    margin-top: 15px;
+    padding-bottom: 20px;    
+    padding-right: 70px;    
+    font-weight: 600;
+    letter-spacing: .085em;
+    font-size: 20px;      
+    color: #38ACEC;
+}
+
+.k1 {    
+    cursor: pointer;     
+    position: relative;    
+    top: 10px;
+    left: 50px;
+    margin-top: 15px;   
+    font-weight: 600;
+    letter-spacing: .085em;
+    font-size: 28px;        
+}
+
+img.logo {
+    width: 100px;
+    height: 70px;
+    position: relative;
+    top: -22px;
+    left: -30px;
+}
+
+.kk:hover, .kk.active, .kk:focus,.kk1:hover, .kk1.active, .kk1:focus {
+    color: #38ACEC;    
+}
+
+div.ba1 {    
+    margin-bottom: 80px;
+    text-align: center;
+    vertical-align: middle;    
+    background: #fff;
+    color: #000;    
+}
+
+div.bt1 p {
+    margin-right: auto; 
+    margin-left: auto;
+    text-align: justify;        
+    vertical-align: middle;
+    margin-top: 35px;
+    font-size: 20px;   
+    width: 850px;
+    line-height: 3rem;   
+}
+
+div.bt1 h3 {    
+    font-size: 25px;
+    margin-top: 80px;    
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 0.4em;    
+}
+
+div.ba2 {
+    display: flex;
+    overflow: hidden;
+}
+
+img.hotel1 {
+    width: 500px;
+    height: 650px;
+}
+
+img.hotel2 {
+    width: 480px;
+    height: 650px;
+}
+
+img.hotel3 {
+    width: 450px;
+    height: 650px;
+}
+
+div.ba2 {
+    display: flex;
+    overflow: hidden;
+}
+
+
+img.hotel1 {
+    width: 500px;
+    height: 650px;
+}
+
+img.hotel2 {
+    width: 480px;
+    height: 650px;
+}
+
+img.hotel3 {
+    width: 450px;
+    height: 650px;
+}
+
+div.ba3 {
+    margin-bottom: 80px;
+    text-align: center;
+    vertical-align: middle;    
+    background: #fff;
+    color: #000;    
+}
+
+div.bt4 p {
+    margin-right: auto; 
+    margin-left: auto;
+    text-align: justify;            
+    vertical-align: middle;
+    margin-top: 35px;
+    font-size: 20px;   
+    width: 850px;
+    line-height: 3rem;   
+}
+
+div.bt4 h3 {
+    font-size: 25px;
+    margin-top: 80px;    
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 0.4em;    
+}
+
+div.ba5 {
+    display: flex;
+    overflow: hidden;
+}
+
+img.hotel4 {
+    width: 700px;
+    height: 500px;
+}
+
+img.hotel5 {
+    width: 700px;
+    height: 500px;
+}
+
+div.ba6 {
+    margin-bottom: 80px;
+    text-align: center;
+    vertical-align: middle;    
+    background: #fff;
+    color: #000;    
+}
+
+div.bt7 p {
+    margin-right: auto; 
+    margin-left: auto;
+    text-align: justify;              
+    vertical-align: middle;
+    margin-top: 35px;
+    font-size: 20px;    
+    width: 850px;
+    line-height: 3rem;   
+}
+
+div.bt7 h3 {
+    font-size: 25px;
+    margin-top: 80px;    
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 0.4em;    
+}
+
+div.ba8 {
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+img.hotel6 {
+    width: 900px;
+    height: 600px;
+}
+
+img.hotel7 {
+    width: 600px;
+    height: 600px;
+}
+
+footer.down {   
+    margin-top: 1px;
+    border-top: 1px dashed #33ccff;       
+    height: 300px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;    
+    text-align: center;
+    overflow:hidden;
+}
+
+ul.tabs {
+     list-style-type: none;
+     width: 200px;    
+     margin-left: 100px;   
+     margin-top: 50px;  
+}
+
+ul.tabs li {
+    padding-bottom: 30px;
+    border: #38ACEC;   
+}
+
+div.snowflakes img {
+    width: 100px;
+    height: 90px;
+    margin-bottom: 30px;
+}
+
+
+div.adr {
+    width: 300px;
+    position: relative;
+    top: -240px;
+    left: 550px;
+    text-align: justify;
+}
+
+div.block {
+    display: flex;
+    position: relative;
+    left: 1000px;
+    top: -380px;
+    width: 200px;    
+}
+
+p#inst1 {
+    position: relative;
+    top: -17px;
+    padding-left: 20px;
+}
+
+p#inst2 {
+    position: relative;
+    top: -11px;
+    padding-left: 10px;
+}
+
+p#inst3 {
+    position: relative;
+    top: -7px;
+    left: -2px;
+}
+
+div.soc {
+    position: relative;
+    
+    display: grid;
+}
+
+div.soc a {
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+h3#zz {
+    position: relative;
+    top: -385px;
+    left: 940px;
+    width: 200px;
+}
+
+div.names a {
+    text-decoration: none;
+    color: #000;
+}
+
+div.names a:hover {
+    color: #38ACEC;
+}
+
+
+button {    
+    background: none;
+    border-radius: 3.6em;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #38ACEC;
+    margin: 3px;
+}
+
+button:hover, button:active, button:visited {
+    cursor: pointer;
+    background-color: #38ACEC;
+     border: 2px solid #38ACEC;
+}
+
+div.song {
+    display: flex;    
+    width: 5px;
+    height: 20px;
+    float: right;
+    position: relative;
+    top: 20px;
+    left: -130px;
+}
+
+
+
+
+
+
+
+
+
+
